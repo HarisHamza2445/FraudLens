@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { History, Search, Download, Trash2, ShieldAlert, AlertTriangle, ShieldCheck, ArrowUpRight } from 'lucide-react';
 import { soundFX } from '../utils/soundEffects';
+import { apiFetch } from '../utils/api';
 
 export default function AnalysisHistory({ onSelectHistoricalItem }) {
   const [history, setHistory] = useState([]);
@@ -12,8 +13,8 @@ export default function AnalysisHistory({ onSelectHistoricalItem }) {
   const fetchHistoryAndStats = async () => {
     try {
       const [histRes, statsRes] = await Promise.all([
-        fetch('/api/history'),
-        fetch('/api/stats')
+        apiFetch('/api/history'),
+        apiFetch('/api/stats')
       ]);
       if (histRes.ok) {
         const histData = await histRes.json();

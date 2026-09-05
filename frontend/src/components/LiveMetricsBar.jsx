@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useSpring, useMotionValue, useTransform } from 'framer-motion';
 import { ShieldCheck, ShieldAlert, Activity, Radar, TrendingUp, ScanSearch } from 'lucide-react';
+import { apiFetch } from '../utils/api';
 
 function AnimatedNumber({ value }) {
   const mv = useMotionValue(0);
@@ -23,7 +24,7 @@ export default function LiveMetricsBar() {
     let active = true;
     const load = async () => {
       try {
-        const res = await fetch('/api/stats');
+        const res = await apiFetch('/api/stats');
         if (res.ok && active) {
           const data = await res.json();
           setStats(data);

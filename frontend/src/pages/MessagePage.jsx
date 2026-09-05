@@ -9,6 +9,7 @@ import AIExplanation from '../components/AIExplanation';
 import ThreeThreatShield from '../components/ThreeThreatShield';
 import { Reveal, Stagger, StaggerItem } from '../components/Reveal';
 import { soundFX } from '../utils/soundEffects';
+import { apiFetch } from '../utils/api';
 
 export default function MessagePage() {
   const location = useLocation();
@@ -56,7 +57,7 @@ Suspect Contact Number: 9876543210`
   const handleAnalyze = async ({ text }) => {
     setIsAnalyzing(true);
     try {
-      const response = await fetch('/api/analyze/message', {
+      const response = await apiFetch('/api/analyze/message', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text })

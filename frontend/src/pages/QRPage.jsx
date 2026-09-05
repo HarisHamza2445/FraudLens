@@ -9,6 +9,7 @@ import AIExplanation from '../components/AIExplanation';
 import ThreeThreatShield from '../components/ThreeThreatShield';
 import { Reveal, Stagger, StaggerItem } from '../components/Reveal';
 import { soundFX } from '../utils/soundEffects';
+import { apiFetch } from '../utils/api';
 
 export default function QRPage() {
   const [isAnalyzing, setIsAnalyzing] = useState(false);
@@ -53,7 +54,7 @@ Claimed Scheme: Fake Cashback Reward`
   const handleAnalyze = async ({ qrContent, userContext }) => {
     setIsAnalyzing(true);
     try {
-      const response = await fetch('/api/analyze/qr', {
+      const response = await apiFetch('/api/analyze/qr', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ qrContent, userContext })

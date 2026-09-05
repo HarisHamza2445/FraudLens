@@ -1,0 +1,38 @@
+services:
+  # Backend — Node.js API
+  - type: web
+    name: fraudlens-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: CORS_ORIGIN
+        value: https://fraudlens.onrender.com
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+    healthCheckPath: /api/health
+
+  # Frontend — React/Vite static site
+  - type: web
+    name: fraudlens
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://fraudlens-backend.onrender.com
+    routes:
+      - type: rewrite
+        source: /api/*
+        destination: https://fraudlens-backend.onrender.com/api/*
+      - type: rewrite
+        source: /*
+        destination: /index.html

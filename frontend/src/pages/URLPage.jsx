@@ -9,6 +9,7 @@ import AIExplanation from '../components/AIExplanation';
 import ThreeThreatShield from '../components/ThreeThreatShield';
 import { Reveal, Stagger, StaggerItem } from '../components/Reveal';
 import { soundFX } from '../utils/soundEffects';
+import { apiFetch } from '../utils/api';
 
 export default function URLPage() {
   const [isAnalyzing, setIsAnalyzing] = useState(false);
@@ -52,7 +53,7 @@ Impersonated Entity: State Bank of India (SBI)`
   const handleAnalyze = async ({ url }) => {
     setIsAnalyzing(true);
     try {
-      const response = await fetch('/api/analyze/url', {
+      const response = await apiFetch('/api/analyze/url', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url })
