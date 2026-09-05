@@ -1,8 +1,4 @@
-/**
- * FraudLens: Explainable AI (XAI) & Incident Reporting Service
- * Synthesizes multi-vector threat signals into plain-language explanations
- * and pre-formatted Cyber Crime Portal (1930) complaint reports.
- */
+
 
 export function generateAIExplanation({ type, input, riskScore, classification, flags = [], parsedData = null }) {
   let summary = '';
