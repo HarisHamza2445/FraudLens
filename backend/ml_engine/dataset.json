@@ -1,0 +1,207 @@
+[
+  {
+    "text": "Dear customer your SBI bank account will be suspended today. Click link to update your PAN and Aadhaar card immediately http://sbi-pan-kyc.vip",
+    "label": "high_risk",
+    "category": "fake_kyc"
+  },
+  {
+    "text": "Your HDFC netbanking is blocked due to incomplete KYC. Visit http://hdfc-verifypan.top to avoid account deactivation within 24 hours.",
+    "label": "high_risk",
+    "category": "fake_kyc"
+  },
+  {
+    "text": "Dear consumer your electricity power will be disconnected tonight at 9:30 PM from electricity office because your previous month bill was not updated. Please immediately contact our electricity officer at 9876543210.",
+    "label": "high_risk",
+    "category": "electricity_scam"
+  },
+  {
+    "text": "Bijli bill update nahi hua hai. Aaj raat line cut ho jayegi. Turant call karein electricity power officer ko 9123456780 par nahi to connection cut.",
+    "label": "high_risk",
+    "category": "electricity_scam"
+  },
+  {
+    "text": "Congratulations! You have won a cash prize of Rs 50,000 from KBC / PhonePe Lucky Draw. Scan the QR code and enter your UPI PIN to claim money instantly.",
+    "label": "high_risk",
+    "category": "lottery_refund"
+  },
+  {
+    "text": "Your Google Pay cashback of Rs 2,999 is waiting. Scan this QR code and approve request in GPay app to receive money into your bank account.",
+    "label": "high_risk",
+    "category": "reverse_qr_trap"
+  },
+  {
+    "text": "Part time work from home opportunity! Earn Rs 3,000 to 5,000 daily by liking YouTube videos and rating hotels. Contact HR on WhatsApp now wa.me/919988776655.",
+    "label": "high_risk",
+    "category": "job_scam"
+  },
+  {
+    "text": "Dear user, we detected unauthorized login attempt on your Paytm wallet from unknown device in Mumbai. Click http://paytm-security-alert.xyz to cancel transaction.",
+    "label": "high_risk",
+    "category": "impersonation"
+  },
+  {
+    "text": "Your courier package DHL/IndiaPost has failed delivery due to incorrect address. Pay Rs 25 re-delivery fee at http://indiapost-redelivery.live to reschedule delivery.",
+    "label": "high_risk",
+    "category": "phishing"
+  },
+  {
+    "text": "Dear Customer, please verify your mobile number for Jio 5G upgrade or your SIM card will be deactivated within 12 hours. Download app from link: http://jio-5g-upgrade.apk",
+    "label": "high_risk",
+    "category": "fake_kyc"
+  },
+  {
+    "text": "Dear user, kindly review your recent card transaction of Rs 1,450 at Flipkart. If not done by you, report to customer care or visit netbanking.",
+    "label": "suspicious",
+    "category": "bank_alert"
+  },
+  {
+    "text": "Special loan offer! Pre-approved personal loan of Rs 5 Lakhs approved at 0% interest with zero documentation. Apply now on WhatsApp.",
+    "label": "suspicious",
+    "category": "unverified_loan"
+  },
+  {
+    "text": "Urgent reminder: Your insurance premium policy is due in 3 days. Pay online through our agent link to get 15% discount.",
+    "label": "suspicious",
+    "category": "unverified_payment"
+  },
+  {
+    "text": "Your OTP for login to SBI YONO is 492019. Valid for 10 minutes. Do not share OTP or UPI PIN with anyone including bank staff.",
+    "label": "safe",
+    "category": "legitimate_otp"
+  },
+  {
+    "text": "Sent Rs 450.00 from HDFC Bank A/c XX4019 to Swiggy via UPI Ref No 429104928172. Available balance is Rs 24,190.00.",
+    "label": "safe",
+    "category": "transaction_alert"
+  },
+  {
+    "text": "Dear Customer, your electricity bill of Rs 1,840 for consumer no 849201 is generated. Due date 18-Oct-2026. Pay via official portal bescom.karnataka.gov.in.",
+    "label": "safe",
+    "category": "legitimate_utility"
+  },
+  {
+    "text": "Received Rs 2,500.00 in your Google Pay from Rahul Verma for freelance design project. UPI Ref: 489201948291.",
+    "label": "safe",
+    "category": "transaction_alert"
+  },
+  {
+    "text": "Your order from Amazon has been shipped via BlueDart with tracking ID 948201948. Expected delivery by tomorrow.",
+    "label": "safe",
+    "category": "legitimate_ecommerce"
+  },
+  {
+    "text": "Your parcel from IndiaPost is held at Chennai sorting center due to unpaid customs. Pay Rs 149 to release your package via this payment link http://indiapost-release.live now.",
+    "label": "high_risk",
+    "category": "parcel_scam"
+  },
+  {
+    "text": "Aapka FedEx parcel customs clearance ke liye ruka hai. Rs 120 jama karein is link par http://fedex-clear.vip tahro package release hoga.",
+    "label": "high_risk",
+    "category": "parcel_scam"
+  },
+  {
+    "text": "Did you make this investment? Your mutual fund withdrawal of Rs 45,000 is processing. If not done by you, contact our agent on this number 9812345678 and share the OTP.",
+    "label": "high_risk",
+    "category": "investment_refund"
+  },
+  {
+    "text": "GST refund of Rs 12,500 has been approved for your business. Click SELFBACK? Confirm: claim your refund at http://gst-refund.pay-taxes.top within 24 hours or it will lapse.",
+    "label": "high_risk",
+    "category": "tax_refund"
+  },
+  {
+    "text": "Your Aadhaar card is linked to 47 SIM numbers involved in money laundering. Call this officer 9988776655 immediately and pay your bail amount to avoid arrest warrant.",
+    "label": "high_risk",
+    "category": "digital_arrest"
+  },
+  {
+    "text": "Mummy emergency. I lost my phone in an accident, I am in hospital. Please send Rs 20,000 to this account immediately via UPI. My friend's number 9122233344.",
+    "label": "high_risk",
+    "category": "family_emergency"
+  },
+  {
+    "text": "Earn Rs 500 per day by doing simple Instagram, YouTube and Telegram tasks. Pay Rs 300 registration fee to start earning from today. Join our VIP group on WhatsApp.",
+    "label": "high_risk",
+    "category": "job_scam"
+  },
+  {
+    "text": "Congratulations, you have been selected for a 100% scholarship. Register today at http://scholarship-portal.win and pay Rs 299 processing fee to claim your award.",
+    "label": "high_risk",
+    "category": "lottery_refund"
+  },
+  {
+    "text": "Dear user, Khata Bank account to be closed due to KYC not updated. Update your PAN and Aadhaar today at http://khata-kyc-update.top or your BKash/Khata account will be blocked.",
+    "label": "high_risk",
+    "category": "fake_kyc"
+  },
+  {
+    "text": "Your voter ID card has been cancelled due to an error in the electoral roll. Re-verify with government officer on 9177778899 before tomorrow.",
+    "label": "high_risk",
+    "category": "impersonation"
+  },
+  {
+    "text": "TRAI warning! Your mobile number will be permanently blocked today because you have sent more than 100 promotional messages. Call 9900990099 and press 1 to avoid disconnection.",
+    "label": "high_risk",
+    "category": "impersonation"
+  },
+  {
+    "text": "You have won Rs 2,00,000 from Big Bazaar lucky draw. To release your prize money, first deposit Rs 1,000 GST fee via UPI to merchant khata 8822033344.",
+    "label": "high_risk",
+    "category": "lottery_refund"
+  },
+  {
+    "text": "Dear customer, your credit card has been used for Rs 65,000 at an online store in Dubai. To block your card and cancel this transaction, share your OTP and CVV with our executive now.",
+    "label": "high_risk",
+    "category": "card_scam"
+  },
+  {
+    "text": "Your PAN card is linked with suspicious black money transactions. Verify your PAN on this income tax portal http://pan-income-tax.vip or legal action will be taken against you.",
+    "label": "high_risk",
+    "category": "impersonation"
+  },
+  {
+    "text": "Great news! Your loan of Rs 50,000 has been sanctioned. Pay Rs 2,000 loan processing fee to receive the amount in your account within 5 minutes.",
+    "label": "high_risk",
+    "category": "loan_scam"
+  },
+  {
+    "text": "Your DTH connection will be disconnected tonight because your recharge is due. Contact our executive on 9511112222 to pay and renew your subscription immediately.",
+    "label": "high_risk",
+    "category": "electricity_scam"
+  },
+  {
+    "text": "Your mobile recharge of Rs 399 for Airtel renewed successfully. New validity till 05-Nov-2026. Enjoy unlimited 5G data plan.",
+    "label": "safe",
+    "category": "legitimate_recharge"
+  },
+  {
+    "text": "Your ICICI Bank fixed deposit of Rs 1,00,000 matures on 15-Oct-2026. Renew now to lock in higher interest rates. Visit your nearest branch or netbanking.",
+    "label": "safe",
+    "category": "bank_alert"
+  },
+  {
+    "text": "OTP for Aadhaar authentication is 625481. Valid for 10 minutes. Do not share this OTP with anyone.",
+    "label": "safe",
+    "category": "legitimate_otp"
+  },
+  {
+    "text": "Your train ticket PNR 4620193847 from Delhi to Kanpur is confirmed. Total fare Rs 1,240. Booking status CONFIRMED. Coach B3 seat 24.",
+    "label": "safe",
+    "category": "travel_alert"
+  },
+  {
+    "text": "Your water bill of Rs 680 for consumer number 2041 is due on 20-Oct-2026. Kindly pay before the due date to avoid late fee. No action needed if already paid.",
+    "label": "safe",
+    "category": "legitimate_utility"
+  },
+  {
+    "text": "Your salary of Rs 55,000 has been credited by ABC Tech Solutions Pvt Ltd. Available balance Rs 1,02,480.",
+    "label": "safe",
+    "category": "transaction_alert"
+  },
+  {
+    "text": "Your LPG cylinder booking is confirmed. Delivery expected on 12-Oct-2026 between 9 AM to 6 PM. Track your delivery through the official app.",
+    "label": "safe",
+    "category": "legitimate_utility"
+  }
+]
