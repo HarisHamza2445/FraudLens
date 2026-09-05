@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    container_name: fraudlens-backend
+    environment:
+      - PORT=5005
+      - CORS_ORIGIN=http://localhost:8080
+    ports:
+      - "5005:5005"
+    volumes:
+      - fraudlens-data:/app/services
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: fraudlens-frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+volumes:
+  fraudlens-data:
